@@ -15,19 +15,17 @@ body {
   width: 200px;
   background-color: black;
 }
-.container {
-  display: flex;
-}
-.container1 {
-  justify-content: flex-start;
+
+.dot1 {
+  align-self: flex-start;
 }
 
-.container2 {
-  justify-content: center;
+.dot2 {
+  align-self: center;
 }
 
-.container3 {
-  justify-content: flex-end;
+.dot3 {
+  align-self: flex-end;
 }
 .dot {
   height: 20px;
